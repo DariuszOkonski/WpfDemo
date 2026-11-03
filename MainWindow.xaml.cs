@@ -25,7 +25,9 @@ namespace WpfDemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello");
+            string personData = person.Name + " is " + person.Age + " years old";
+
+            MessageBox.Show(personData);
         }
     }
 }
