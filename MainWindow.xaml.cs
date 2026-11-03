@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using WpfDemo.Data;
 
 namespace WpfDemo
 {
@@ -7,9 +8,17 @@ namespace WpfDemo
     /// </summary>
     public partial class MainWindow : Window
     {
+        Person person = new Person()
+        {
+            Name = "Jannick",
+            Age = 30
+        };
+
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = person;
 
             //MainContent.Content = new LoginView();
         }
