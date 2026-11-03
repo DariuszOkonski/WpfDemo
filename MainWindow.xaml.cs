@@ -11,7 +11,12 @@ namespace WpfDemo
         {
             InitializeComponent();
 
-            MainContent.Content = new LoginView();
+            //MainContent.Content = new LoginView();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello");
         }
     }
 }
