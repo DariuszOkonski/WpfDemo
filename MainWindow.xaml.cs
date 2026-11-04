@@ -11,7 +11,7 @@ namespace WpfDemo
         {
             InitializeComponent();
 
-            MainContent.Content = new LoginView();
         }
+
     }
 }
