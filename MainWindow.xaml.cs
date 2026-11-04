@@ -10,6 +10,14 @@ namespace WpfDemo
         public MainWindow()
         {
             InitializeComponent();
+
+            ListBoxNames.ItemsSource = new List<string>()
+            {
+                "Jannick",
+                "Peter",
+                "Maria",
+                "Marc"
+            };
         }
     }
 }
