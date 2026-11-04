@@ -1,6 +1,6 @@
 ﻿namespace WpfDemo.Data
 {
-    class Person
+    public class Person
     {
         public int Age { get; set; }
         public string Name { get; set; }
