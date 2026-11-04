@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfDemo"
         mc:Ignorable="d"
-        Title="Data Binding" Height="500" Width="500">
+        Title="Data Binding" Height="350" Width="350">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height = "10" />
