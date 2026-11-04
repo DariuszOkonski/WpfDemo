@@ -22,7 +22,7 @@ namespace WpfDemo
         {
             InitializeComponent();
 
-            ListBoxNames.ItemsSource = People;
+            ListBoxPeople.ItemsSource = People;
         }
     }
 }
