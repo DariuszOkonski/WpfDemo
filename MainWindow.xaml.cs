@@ -10,7 +10,7 @@ namespace WpfDemo
         public MainWindow()
         {
             InitializeComponent();
-
+            MainContent.Content = new LoginView();
         }
 
     }

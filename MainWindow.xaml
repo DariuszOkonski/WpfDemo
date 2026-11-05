@@ -7,16 +7,7 @@
         mc:Ignorable="d"
         Title="Data Binding" Height="450" Width="800 " WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height = "10" />
-            <RowDefinition Height = "*" />
-            <RowDefinition Height = "10" />
-        </Grid.RowDefinitions>
+        <ContentControl x:Name="MainContent" />
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width = "10" />
-            <ColumnDefinition Width = "*" />
-            <ColumnDefinition Width = "10" />
-        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
