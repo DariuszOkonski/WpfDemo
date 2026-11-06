@@ -13,9 +13,28 @@ namespace WpfDemo
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void OnLoginBtnClicked(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Working");
+            var passwordEntered = PasswordBox.Password;
+
+            string? envPw = System.Environment.GetEnvironmentVariable("InvoiceManagement");
+
+            if (envPw != null)
+            {
+                if (passwordEntered == envPw)
+                {
+                    MessageBox.Show("Entered correct password");
+                }
+                else
+                {
+                    MessageBox.Show("Wntered wrong password");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Environment variable not found");
+            }
+
         }
     }
 }
