@@ -36,5 +36,10 @@ namespace WpfDemo
             }
 
         }
+
+        private void OnPasswordChanged(object sender, RoutedEventArgs e)
+        {
+            LoginButton.IsEnabled = !string.IsNullOrEmpty(PasswordBox.Password);
+        }
     }
 }
