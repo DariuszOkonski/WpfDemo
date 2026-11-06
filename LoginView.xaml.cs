@@ -27,7 +27,7 @@ namespace WpfDemo
                 }
                 else
                 {
-                    MessageBox.Show("Wntered wrong password");
+                    MessageBox.Show("Entered wrong password");
                 }
             }
             else
